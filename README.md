@@ -1,6 +1,9 @@
 #导表工具用法及配置
 * 支持将xls数据导出为json、xml、lua、SQL、sqlite_db格式
 * 支持数据表关联，生成出树型结构的json、xml、lua。
+* 支持加入标签忽略导出数据列，如CLIENT_ONLY：只导出给客户端， SERVER_ONLY：只导出给服务端， DONT_LOAD：忽略该字段
+
+* 如果使用xls_convertor.py，excel表中描述行需要加上数据库类型定义。
 
 数据表格式规范及数据关联
 * 每个xls只包含1个sheet页
